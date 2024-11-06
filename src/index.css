@@ -5,4 +5,16 @@
 body {
   /* @apply text-gray-900; */
   @apply bg-gray-700
+} 
+
+
+  @media only screen and (max-width: 600px) {
+  .responsive {
+    background-color: lightblue;
+  
+  }
+    .res{
+      width:90%;
+    }
 }
+  

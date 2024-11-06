@@ -27,7 +27,7 @@ const CurrencyConverter = () => {
 
   return (
     <div className='w-full h-screen flex items-center text-slate-50 '>
-       <div style={{ padding: '20px', maxWidth: '400px', margin: '0 auto' }} className='bg-slate-800 bg-opacity-50 flex flex-col w-1/2 gap-6'>
+       <div style={{ padding: '20px', maxWidth: '400px', margin: '0 auto' }} className='bg-slate-800 bg-opacity-50 flex flex-col w-1/2 gap-6 res '>
       <h3 className='text-lg text-center font-bold'>Currency Exchange</h3>
       <div className='flex gap-2'>
         <label>From :</label>
@@ -43,7 +43,7 @@ const CurrencyConverter = () => {
           type="number"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
-          className='text-black text-center outline-none'
+          className='text-black text-center outline-none w-36 '
         />
       </div>
       <button
